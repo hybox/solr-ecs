@@ -1,0 +1,15 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Ports": [
+    {
+      "ContainerPort": "8983"
+    }
+  ],
+  "Volumes": [
+    {
+      "HostDirectory": "/var/app/solr",
+      "ContainerDirectory": "/data/solr"
+    }
+  ],
+  "Logging": "/opt/solr/server/logs"
+}
