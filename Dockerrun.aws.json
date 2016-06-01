@@ -1,5 +1,9 @@
 {
   "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "hybox/solr-ecs",
+    "Update": "true"
+  },
   "Ports": [
     {
       "ContainerPort": "8983"
